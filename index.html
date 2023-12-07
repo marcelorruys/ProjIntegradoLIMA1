@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Delíciofast</title>
+	<link rel="icon" type="image/x-icon" href="static/img/logo.png">	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/js/main.js" defer></script>
+</head>
+<body>
+	<header id="topo">
+		<div class="container">
+			<div class="logo">
+				<img src="static/img/logo.png" alt="Logotipo">
+				Delíciofast
+			</div>
+			<nav class="menu">
+				<div class="bt-menu">
+					<a href="#mascara"></a>
+				</div>
+				<ul class="links">
+					<li><a href="#topo">Home</a></li>
+					<li><a href="produtos.html">Cardapio</a></li>
+					<li><a href="sobre_nos.html">Sobre nos</a></li>
+					<li><a href="fale_conosco.html">Fale conosco</a></li>
+					<li><a href="pedidos.html">Pedidos</a></li>
+					<li><a href="carrinho.html"><img style="max-width: 25px;" src="./static/img/cart-icon.png" alt=""></a></li>
+				</ul>
+			</nav>			
+		</div>
+	</header>
+	<div id="mascara">
+		<div class="menu-container">
+			<div class="fechar">
+				<a href="#fechar">X</a>
+			</div>
+			<nav>
+				<ul class="menu-mobile">
+					<li><a href="#topo">Home</a></li>
+					<li><a href="produtos.html">Cardapio</a></li>
+					<li><a href="sobre_nos.html">Sobre nos</a></li>
+					<li><a href="fale_conosco.html">Fale conosco</a></li>
+					<li><a href="pedidos.html">Pedidos</a></li>
+					<li><a href="carrinho.html">Carrinho</a></li>
+				</ul>
+			</nav>
+		</div>		
+	</div>
+	<section id="banner">
+		<div class="container">
+			<div class="bloco-2">
+				<h2>Sua comida favorita entregue na sua casa</h2>
+				<p>Confira nossas promoções e combos exclusivos.</p>
+				<form action="https://api.whatsapp.com/send" method="get" target="_blank">
+					<input type="hidden" name="phone" value="5551999999999">
+					<input required class="icon-whats" type="text" name="text" placeholder="Faça seu pedido agora"><button class="bt-whats"> </button>
+
+				</form>
+			</div>
+			<div class="bloco-2">
+				<img class="img-banner" src="static/img/motoboy.png" alt="Motoboy">
+			</div>
+		</div>
+	</section>
+
+	<main id="cardapio">
+		<div class="container">
+			<h2 class="title">Veja nosso cardápio</h2>
+			<div class="cardapio" id="cardCatalogoProduto">
+			</div><!-- end cardapio -->
+			<div class="cardapio"><a class="bt-destaque" target="_blank" href="produtos.html">Peça Agora</a></div>
+		</div>
+	</main>
+	<section id="receba">
+		<div class="container">
+			<h2 class="title">Receba em sua casa de forma fácil e segura</h2>
+			<div class="receba">
+				<div class="bloco-3">
+					<div class="imagem">
+						<img src="static/img/fluxo-3.jpg" alt="Prato">
+					</div>
+					<div class="infos-prato">
+						<h3>Faça o pedido online</h3>
+						<p>Faça seu pedido de forma prática e fácil através do WhatsApp</p>
+					</div>
+				</div>
+				<div class="bloco-3">
+					<div class="imagem">
+						<img src="static/img/fluxo-1.jpg" alt="Prato">
+					</div>
+					<div class="infos-prato">
+						<h3>Preparando seu pedido</h3>
+						<p>Ao completar seu pedido iremos encaminha-lo a cozinha, embalar e enviar para a entrega.</p>
+					</div>
+				</div>
+				<div class="bloco-3">
+					<div class="imagem">
+						<img src="static/img/fluxo-2.jpg" alt="Prato">
+					</div>
+					<div class="infos-prato">
+						<h3>Receba em sua casa</h3>
+						<p>Receba o seu pedido no portão da sua casa.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="vantagens">
+		<div class="container">
+			<div class="bloco-2">
+				<div class="rocket">
+					<div class="back-foguete"></div>
+					<div class="foguete">
+						<img src="static/img/foguete.png" alt="Foguete">
+					</div>
+				</div>
+			</div>
+			<div class="bloco-2">
+				<h2 class="title">Vantagens de comprar conosco</h2>
+				<div class="infos">
+					<div class="numero">
+						01
+					</div>
+					<div class="vantagens">
+						<h4>Sabor Que Encanta, a Cada Mordida!</h4>
+						<p>Cada prato é preparado com paixão e cuidado, usando ingredientes frescos e de alta qualidade para garantir que cada mordida seja uma explosão de sabores.</p>
+					</div>
+				</div>
+				<div class="infos">
+					<div class="numero">
+						02
+					</div>
+					<div class="vantagens">
+						<h4>Variedade que Satisfaz, Qualidade que Permanece.</h4>
+						<p>Apesar da nossa diversidade, há uma constante em todos os nossos pratos: a qualidade impecável.</p>
+					</div>
+				</div>
+				<div class="infos">
+					<div class="numero">
+						03
+					</div>
+					<div class="vantagens">
+						<h4>Rápido, Fresco e Irresistível - Porque Você Merece o Melhor!</h4>
+						<p>Nosso serviço é rápido e eficiente, garantindo que você possa desfrutar de uma refeição deliciosa mesmo nos dias mais corridos.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="depoimentos">
+		<div class="container">
+			<div class="bloco-2">
+				<div class="depoimentos">
+					<h2 class="title">O que falam de nós</h2>
+					<input checked id="dep-1" type="radio" name="dep">
+					<div class="text-depoimento">
+						<p>"A DELÍCIOFAST é meu lugar favorito para matar a fome! A comida é sempre deliciosa, e o atendimento é incrível. Recomendo para todos os amantes de comida gostosa e serviço excepcional!"</p>
+					</div>
+					<input id="dep-2" type="radio" name="dep">
+					<div class="text-depoimento">
+						<p>"Estou simplesmente impressionado com a qualidade dos lanches da Lancheria Sabor & Prazer. Cada mordida é uma explosão de sabores! A equipe é calorosa e amigável, tornando a experiência de jantar ainda mais agradável. Não troco por nada!"</p>
+					</div>
+					<div class="cliente">
+						<label for="dep-1">
+							<img src="static/img/user.png" alt="Cliente">
+							<div>
+								<h4>Ana Silva</h4>
+								<p>Cliente</p>
+							</div>
+						</label>
+
+						<label for="dep-2">
+							<img src="static/img/user.png" alt="Cliente">
+							<div>
+								<h4>Carlos Oliveira</h4>
+								<p>Cliente</p>
+							</div>
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="bloco-2">
+				<div>
+					<img src="static/img/depoimentos.jpg" alt="Depoimentos">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="parceiros">
+		<div class="container">
+			<h2 class="title">Nossos Parceiros</h2>
+			<div class="bloco-4">
+				<img src="static/img/parceiros/ifood.png" alt="Parceiros">
+			</div>
+			<div class="bloco-4">
+				<img src="static/img/parceiros/99.png" alt="Parceiros">
+			</div>
+			<div class="bloco-4">
+				<img src="static/img/parceiros/uber.png" alt="Parceiros">
+			</div>
+			<div class="bloco-4">
+				<img src="static/img/parceiros/rappi-p.png" alt="Parceiros">
+			</div>
+		</div>
+	</section>
+	<footer id="rodape">
+		<p>Todos os direitos Reservados<br>
+			Desenvolvimento web: <a href="#">Delícifast</a>
+		</p>
+	</footer>
+	<script type="text/javascript">
+	</script>
+</body>
+</html>
