@@ -33,43 +33,74 @@
 			</nav>			
 		</div>
 	</header>
-	<div id="mascara">
-		<div class="menu-container">
-			<div class="fechar">
-				<a href="#fechar">X</a>
-			</div>
-			<nav>
-				<ul class="menu-mobile">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="produtos.html">Cardapio</a></li>
-					<li><a href="sobre_nos.html">Sobre nos</a></li>
-					<li><a href="fale_conosco.html">Fale conosco</a></li>
-                    <li><a href="pedidos.html">Pedidos</a></li>
-                    <li><a href="#topo">Carrinho</a></li>
-				</ul>
-			</nav>
-		</div>		
-	</div>
-
-	<main id="contato">
-		<div class="container">
-			<h2 class="title">Seu <span style="color: #00cc99;">carrinho</span></h2>
-			<div class="grid-cart">
-
-            </div>
-
-            <div class="valor-total" style="margin-right: 50px; text-align: right; margin-top: 50px; font-weight: bold;">
-                
-            </div>
-
-			<div class="form-control">
-				<input placeholder="Seu e-mail" type="email" name="email" id="email-input">
-				<input placeholder="Seu telefone" type="text" name="telefone" id="tel-input">
-			</div>
-			<div class="bt-destaque limpar" onclick="deletarProduto()">Limpar</div>
-            <div onclick="finalizarPedido()" class="bt-destaque finalizar-compra" style="width: 100%; margin-right: 50px; cursor: pointer;">Finalizar compra</div>
+	<main>
+		<div id="mascara">
+			<div class="menu-container">
+				<div class="fechar">
+					<a href="#fechar">X</a>
+				</div>
+				<nav>
+					<ul class="menu-mobile">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Cardapio</a></li>
+						<li><a href="sobre_nos.html">Sobre nos</a></li>
+						<li><a href="fale_conosco.html">Fale conosco</a></li>
+						<li><a href="pedidos.html">Pedidos</a></li>
+						<li><a href="#topo">Carrinho</a></li>
+					</ul>
+				</nav>
+			</div>		
 		</div>
-		
+
+		<section id="contato">
+			<div class="container">
+				<h2 class="title">Seu <span style="color: #00cc99;">carrinho</span></h2>
+				<div class="grid-cart">
+				</div>
+				<div class="valor-total" style="margin-right: 50px; text-align: right; margin-top: 50px; font-weight: bold;">
+				</div>
+				<div class="form-control">
+					<input placeholder="Seu e-mail" type="email" name="email" id="email-input">
+					<input placeholder="Seu telefone" type="text" name="telefone" id="tel-input">
+					<input placeholder="CEP" type="text" name="CEP">
+					<select id="estados" name="estados">
+						<option value="AC">Acre</option>
+						<option value="AL">Alagoas</option>
+						<option value="AP">Amapá</option>
+						<option value="AM">Amazonas</option>
+						<option value="BA">Bahia</option>
+						<option value="CE">Ceará</option>
+						<option value="DF">Distrito Federal</option>
+						<option value="ES">Espírito Santo</option>
+						<option value="GO">Goiás</option>
+						<option value="MA">Maranhão</option>
+						<option value="MT">Mato Grosso</option>
+						<option value="MS">Mato Grosso do Sul</option>
+						<option value="MG">Minas Gerais</option>
+						<option value="PA">Pará</option>
+						<option value="PB">Paraíba</option>
+						<option value="PR">Paraná</option>
+						<option value="PE">Pernambuco</option>
+						<option value="PI">Piauí</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="RN">Rio Grande do Norte</option>
+						<option value="RS">Rio Grande do Sul</option>
+						<option value="RO">Rondônia</option>
+						<option value="RR">Roraima</option>
+						<option value="SC">Santa Catarina</option>
+						<option value="SP">São Paulo</option>
+						<option value="SE">Sergipe</option>
+						<option value="TO">Tocantins</option>
+					  </select>
+					<input placeholder="Cidade" type="text" name="cidade">
+					<input placeholder="Rua" type="text" name="telefone">
+					<input placeholder="Numero" type="text" name="telefone">
+				</div>
+				<div class="bt-destaque limpar" onclick="deletarProduto()">Limpar</div>
+				<div onclick="finalizarPedido()" class="bt-destaque finalizar-compra" style="width: 100%; margin-right: 50px; cursor: pointer;">Finalizar compra</div>
+			</div>
+			
+		</section>
 	</main>
 	<footer id="rodape">
 		<p>Todos os direitos Reservados<br>

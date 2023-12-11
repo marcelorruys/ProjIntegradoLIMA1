@@ -473,6 +473,14 @@ body{
 	max-width: 350px;
 	text-align: right;
 }
+.form-control select {
+	padding: 6px 8px;
+	margin-left: auto;
+	margin-right: 50px;
+	width: 100%;
+	max-width: 350px;
+	text-align: right;
+}
 /* criando menu mobile lateral */
 #mascara:target .menu-container{
 	width: 250px;
